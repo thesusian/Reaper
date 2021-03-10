@@ -1,0 +1,51 @@
+Reaper multi-tool user policy
+Developed by KrisIsHere 2021
+Copyright © Reaper by KrisIsHere 2021
+
+Section 1
+Paragraph 1:
+#----------------#
+By stealing source code of the tool and rebranding it as your own you break the agreement which states you may not do anything with the tool without crediting KrisIsHere.
+If anyone steals source/tool without crediting the creator i.e KrisIsHere they will legally be forced to remove it.
+#----------------#
+Paragraph 2:
+#----------------#
+You dont have the right to use any part of the source without consulting the creator (KrisIsHere).
+If someone uses any part of the source without the creator's knowledge they will be forced to delete it from their project.
+#----------------#
+
+Section 2
+Paragraph 1
+#----------------#
+This tool shall not be used for anything that may resoult in legal trouble.
+If it is used for illegal purposes the creator of the tool is not responsible as it for education/testing purposes only
+#----------------#
+Paragraph 2
+#----------------#
+If the tool is used for anything illegal the user who committed the act of cyber crime would have to delete the tool and not use it as this violates the terms and conditions.
+#----------------#
+
+Section 3
+Paragraph 1
+#----------------#
+No one but the creator has the right to view to source (which is encrypted).
+If the source is decrypted that is a violation of the user agreement.
+If anyone decrypts the source they would have to delete the tool from their computer as having the source just sit there is a violation of our policies.
+#----------------#
+Paragraph 2
+#----------------#
+If someone wants to use certain tools from the Reaper multi-tool for their own project they would have to notify/ask permission from the creator (KrisIsHere).
+If not they dont have permission to use it.
+#----------------#
+
+Section 4
+Paragraph 1
+#----------------#
+Pirating the VIP status of the tool is a strict violation of the terms and conditions.
+If anyone pirates the VIP version they would be banned from using the tool and would have to remove it from their computer.
+#----------------#
+Paragraph 2
+#----------------#
+The VIP status must be given to the end-user by the creator (KrisIsHere) and not anyone else.
+Anyone selling/giving away VIP would be a violation of the terms and conditions.
+#----------------#
