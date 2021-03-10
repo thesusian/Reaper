@@ -31,15 +31,3 @@ Paragraph 1
 If someone wants to use certain tools from the Reaper multi-tool for their own project they would have to notify/ask permission from the creator (KrisIsHere).
 If not they dont have permission to use it.
 #----------------#
-
-Section 4
-Paragraph 1
-#----------------#
-Pirating the VIP status of the tool is a strict violation of the terms and conditions.
-If anyone pirates the VIP version they would be banned from using the tool and would have to remove it from their computer.
-#----------------#
-Paragraph 2
-#----------------#
-The VIP status must be given to the end-user by the creator (KrisIsHere) and not anyone else.
-Anyone selling/giving away VIP would be a violation of the terms and conditions.
-#----------------#
