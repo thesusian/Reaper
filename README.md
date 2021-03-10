@@ -1,4 +1,4 @@
-# Reaper 0.7
+# Reaper 0.9 stable
 A python conversion of the Reaper multi-tool
 
 # Help
