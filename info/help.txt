@@ -1,0 +1,16 @@
+How to use?
+
+1.Open the tool
+
+2.Type the name of your linux account (eg. kris@skid kris is the name)
+
+3.type your password (default is root)
+
+4.choose your tool
+
+5.enjoy
+
+Can you autologin?
+
+To autologin type "autologin" in the terminal once you log in
+To disable autologin type "stop_autologin"
