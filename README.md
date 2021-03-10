@@ -26,3 +26,8 @@ How to use?
 4.choose your tool
 
 5.enjoy
+
+# Can you autologin?
+
+To autologin type "autologin" in the terminal once you log in
+To disable autologin type "stop_autologin"
