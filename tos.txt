@@ -28,12 +28,6 @@ If the tool is used for anything illegal the user who committed the act of cyber
 Section 3
 Paragraph 1
 #----------------#
-No one but the creator has the right to view to source (which is encrypted).
-If the source is decrypted that is a violation of the user agreement.
-If anyone decrypts the source they would have to delete the tool from their computer as having the source just sit there is a violation of our policies.
-#----------------#
-Paragraph 2
-#----------------#
 If someone wants to use certain tools from the Reaper multi-tool for their own project they would have to notify/ask permission from the creator (KrisIsHere).
 If not they dont have permission to use it.
 #----------------#
