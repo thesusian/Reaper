@@ -1,4 +1,7 @@
-#Reaper 0.7 unstable
+#Reaper 0.9 stable
+#Made specifucally for linux
+#WILL NOT WORK ON WINDOWS
+#tested on linux mint, debian, ubuntu
 import os
 import sys
 import time
@@ -293,7 +296,8 @@ def clearanim():
     \033[92;40m                                 (_( _ #         ;_.'
     \033[0;33m                                     ~ `-i' ::#]--"
     \033[92;40m                                        I;i.I.]
-    \033[92;40m                                       .[i::Ii]`.""")
+    \033[92;40m                                       .[i::Ii]`.
+    \033[92;40m                                      (` ;'"`-' ")""")
     time.sleep(1)
     os.system("clear")
     mainmenu()
@@ -313,7 +317,7 @@ def mainmenu():
      ;:::::::::. ,,,;.       /  / DOOOOOO     \033[38;2;143;106;231m2\033[38;2;0;255;152m-\033[92;40mTCP ping     \033[38;2;143;106;231m12\033[38;2;0;255;152m-\033[92;40mProxy Gatherer                        \033[92;40mclear
    .';:::::::::::::::::;,   /  /     DOOOO    \033[38;2;143;106;231m3\033[38;2;0;255;152m-\033[92;40mPort scan    \033[38;2;143;106;231m13\033[38;2;0;255;152m-\033[92;40mProxy Checker                         \033[92;40mcredit
   ,::::::;::::::;;;;::::;, /  /        DOOO   \033[38;2;143;106;231m4\033[38;2;0;255;152m-\033[92;40mPyDDoS       \033[38;2;143;106;231m14\033[38;2;0;255;152m-\033[92;40mSSH                                   \033[92;40mabout
- ;::::::'::::::;;;::::: ,#/  /          DOOO  \033[38;2;143;106;231m5\033[38;2;0;255;152m-\033[92;40mHTTPFlood                                              \033[92;40mhelp
+ ;::::::'::::::;;;::::: ,#/  /          DOOO  \033[38;2;143;106;231m5\033[38;2;0;255;152m-\033[92;40mHTTPFlood    \033[38;2;143;106;231m15\033[38;2;0;255;152m-\033[92;40mVulnerability scan                    \033[92;40mhelp
  ::::::::;::::::;;::: ;::#  /            DOOO \033[38;2;143;106;231m6\033[38;2;0;255;152m-\033[92;40mPuTTY\033[92;40m
  :::::::::;:::::::: ;::::# /              DOO \033[38;2;143;106;231m7\033[38;2;0;255;152m-\033[92;40mTCP flood\033[92;40m
  ::::::::;:::::: ;::::::#/               DOO  \033[38;2;143;106;231m8\033[38;2;0;255;152m-\033[92;40mhtop\033[92;40m
@@ -382,6 +386,12 @@ def mainmenu():
             server = input("Server IP: ")
             por = input("Server port: ")
             os.system("ssh " + server + " -p " + por)
+        elif tool == "15":
+          url = input("Enter target URL: ")
+          print("Doing XSS scan :")
+          bane.xss(url)
+          print("Doing RCE scan :")
+          bane.rce(url)
         elif tool == "autologin":
             print("Autologin enabled")
             os.system("touch .info/autolog.py")
@@ -571,6 +581,7 @@ def logintop():
             print("Wrong username")
 
 
+#ignore
 def loginops():
     os.system("clear")
     l_r = input("""
@@ -599,6 +610,7 @@ def loginops():
         registertop()
     else:
         logintop()
+#you can stol ignoring now
 
 if os.path.isfile(".info/tos_agree.py"):
     logintop()
