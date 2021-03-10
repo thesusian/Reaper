@@ -14,7 +14,7 @@ Credit for 3rd party tools:
 htop - Hisham Muhammad, htop developer team
 PuTTY - Simon Tatham
 
-# Help 
+# About
 
 How to use?
 
