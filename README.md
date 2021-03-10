@@ -1,5 +1,5 @@
 # Reaper
-A python conversion on the Reaper multi-tool
+A python conversion of the Reaper multi-tool
 
 # Help
 
