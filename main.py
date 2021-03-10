@@ -6,7 +6,6 @@ from time import sleep
 import socket
 import random
 import os.path
-import webbrowser
 try:
     import bane
 except:
