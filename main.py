@@ -1,7 +1,7 @@
-#Reaper 1.0 stable
+#Reaper 1.1 stable
 #Made specifucally for linux
 #WILL NOT WORK ON WINDOWS
-#tested on linux mint, debian, ubuntu
+#tested on linux mint, debian, ubuntu, Manjaro
 import os
 import sys
 import time
@@ -18,7 +18,6 @@ except:
     elif xdd == "Y":
         os.system("pip3 install bane")
     else:
-        print("ok")
         sys.exit()
 
 
@@ -319,8 +318,8 @@ def mainmenu():
    .';:::::::::::::::::;,   /  /     DOOOO    \033[38;2;143;106;231m3\033[38;2;0;255;152m-\033[92;40mPort scan    \033[38;2;143;106;231m13\033[38;2;0;255;152m-\033[92;40mProxy Checker                         \033[92;40mcredit
   ,::::::;::::::;;;;::::;, /  /        DOOO   \033[38;2;143;106;231m4\033[38;2;0;255;152m-\033[92;40mPyDDoS       \033[38;2;143;106;231m14\033[38;2;0;255;152m-\033[92;40mSSH                                   \033[92;40mabout
  ;::::::'::::::;;;::::: ,#/  /          DOOO  \033[38;2;143;106;231m5\033[38;2;0;255;152m-\033[92;40mHTTPFlood    \033[38;2;143;106;231m15\033[38;2;0;255;152m-\033[92;40mVulnerability scan                    \033[92;40mhelp
- ::::::::;::::::;;::: ;::#  /            DOOO \033[38;2;143;106;231m6\033[38;2;0;255;152m-\033[92;40mPuTTY\033[92;40m
- :::::::::;:::::::: ;::::# /              DOO \033[38;2;143;106;231m7\033[38;2;0;255;152m-\033[92;40mTCP flood\033[92;40m
+ ::::::::;::::::;;::: ;::#  /            DOOO \033[38;2;143;106;231m6\033[38;2;0;255;152m-\033[92;40mPuTTY\033[92;                                                  \033[92;40mexit
+ :::::::::;:::::::: ;::::# /              DOO \033[38;2;143;106;231m7\033[38;2;0;255;152m-\033[92;40mTCP flood\033[92;40m                                           \033[92;40mupdate
  ::::::::;:::::: ;::::::#/               DOO  \033[38;2;143;106;231m8\033[38;2;0;255;152m-\033[92;40mhtop\033[92;40m
   ::::::::::;; ;:::::::::##                OO \033[38;2;143;106;231m9\033[38;2;0;255;152m-\033[92;40mtraceroute\033[92;40m
   :::::::::::;::::::::;:::#                OO \033[38;2;143;106;231m10\033[38;2;0;255;152m-\033[92;40mPyHoic\033[92;40m
@@ -370,16 +369,13 @@ def mainmenu():
             thread = int(input("Threads: "))
             bane.tcp_flood(ip, p=port, min_size=10, max_size=20, duration=time, interval=0.001, threads=thread, timeout=5, logs=True)
         elif tool == "8":
-            try:
-                os.system("htop")
-            except:
-                xd = input("Would you like to install htop?: ")
-                if xd == "y":
-                    os.system("sudo apt install htop")
-                elif xd == "Y":
-                    os.system("sudo apt install htop")
-                else:
-                    print("ok")
+            xd = input("Would you like to install htop?: ")
+            if xd == "y":
+                os.system("sudo apt install htop")
+            elif xd == "Y":
+                os.system("sudo apt install htop")
+            else:
+                print("ok")
         elif tool == "9":
             ho = input("Host: ")
             po = input("Port: ")
@@ -414,11 +410,24 @@ def mainmenu():
         elif tool == "autologin":
             print("Autologin enabled")
             os.system("touch .info/autolog.py")
+        elif tool == "exit":
+            print("Exiting Reaper...")
+            sys.exit(2)
         elif tool == "stop_autologin":
             print("Autologin disabled")
             os.system("rm -rf .info/autolog.py")
+        elif tool == "beta":
+            print("""List of features that are currently being tested and might be added:
+Error 404 not found (currently none)""")
         elif tool == "neofetch":
             os.system("neofetch")
+        elif tool == "update":
+            path = os.getcwd()
+            parent = os.path.dirname(path)
+            os.system("cp -r .update.py " + parent)
+            os.system("cd " + parent)
+            os.system("python3 .update.py")
+            sys.exit()
         elif tool == "screenfetch":
             os.system("screenfetch")
         else:
