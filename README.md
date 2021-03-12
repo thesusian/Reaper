@@ -1,6 +1,10 @@
 # Reaper 1.2 stable
 A python conversion of the Reaper multi-tool
 
+# Keep in mind that Reaper is for educational purposed only!
+Reaper should not be used for anything illegal and if it is the user is banned from using it ever again.
+The creator is not responsible for any damage you may cause!
+
 # Help
 
 This tool was made by KrisIsHere to help you manage all of your hacking tools in one place.
