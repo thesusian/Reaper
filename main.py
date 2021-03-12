@@ -1,4 +1,4 @@
-#Reaper 1.1 stable
+#Reaper 1.2 stable
 #Made specifucally for Linux
 #WILL NOT WORK ON WINDOWS
 #tested on linux mint, debian, ubuntu, Manjaro
