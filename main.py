@@ -372,7 +372,7 @@ def mainmenu():
         elif tool == "8":
             try:
                 os.system("htop")
-            expect:
+            except:
                 xd = input("Would you like to install htop?: ")
                 if xd == "y":
                     os.system("sudo apt install htop")
