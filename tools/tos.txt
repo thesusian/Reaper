@@ -1,0 +1,33 @@
+Reaper multi-tool user policy
+Developed by KrisIsHere 2021
+Copyright © Reaper by KrisIsHere 2021
+
+Section 1
+Paragraph 1:
+#----------------#
+By stealing source code of the tool and rebranding it as your own you break the agreement which states you may not do anything with the tool without crediting KrisIsHere.
+If anyone steals source/tool without crediting the creator i.e KrisIsHere they will legally be forced to remove it.
+#----------------#
+Paragraph 2:
+#----------------#
+You dont have the right to use any part of the source without consulting the creator (KrisIsHere).
+If someone uses any part of the source without the creator's knowledge they will be forced to delete it from their project.
+#----------------#
+
+Section 2
+Paragraph 1
+#----------------#
+This tool shall not be used for anything that may resoult in legal trouble.
+If it is used for illegal purposes the creator of the tool is not responsible as it for education/testing purposes only
+#----------------#
+Paragraph 2
+#----------------#
+If the tool is used for anything illegal the user who committed the act of cyber crime would have to delete the tool and not use it as this violates the terms and conditions.
+#----------------#
+
+Section 3
+Paragraph 1
+#----------------#
+If someone wants to use certain tools from the Reaper multi-tool for their own project they would have to notify/ask permission from the creator (KrisIsHere).
+If not they dont have permission to use it.
+#----------------#
