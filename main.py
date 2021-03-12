@@ -18,6 +18,7 @@ except:
     elif xdd == "Y":
         os.system("pip3 install bane")
     else:
+        print("ok")
         sys.exit()
 
 
