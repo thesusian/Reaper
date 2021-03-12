@@ -1,4 +1,4 @@
-#Reaper 1.2 stable
+#Reaper 1.1 stable
 #Made specifucally for Linux
 #WILL NOT WORK ON WINDOWS
 #tested on linux mint, debian, ubuntu, Manjaro
@@ -424,9 +424,10 @@ Error 404 not found (currently none)""")
         elif tool == "neofetch":
             os.system("neofetch")
         elif tool == "update":
+            os.chdir('..')
             path = os.getcwd()
             parent = os.path.abspath(os.path.join(path, os.pardir))
-            os.system("cp -r .update.py " + parent)
+            os.system("cp -r tools/.update.py " + parent)
             os.system("python3 " + parent + "/.update.py")
             sys.exit()
         elif tool == "screenfetch":
