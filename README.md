@@ -12,10 +12,11 @@ Reaper's purpose is to make your life easier by compiling all of your tools in t
 
 # Credit 
 
-Reaper was developed by KrisIsHere,Krisman,OwenTheTechie,Sip,Kovaks and Linux aphex hunter
+Reaper was mainly developed by KrisIsHere
+Special thanks to: Krisman,OwenTheTechie,Sip,Kovaks and Linux aphex hunter
 
 Credit for 3rd party tools:
-htop - Hisham Muhammad, htop developer team
+htop - Hisham Muhammad, htop developer team,
 PuTTY - Simon Tatham
 
 # About
