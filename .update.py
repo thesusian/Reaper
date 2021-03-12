@@ -11,7 +11,7 @@ if xd == "Y":
     os.chdir(parent + "/Reaper")
     sys.exit()
 if xd == "y":
-    os.system("rm -rf Reaper ; git clone https://github.com/krisishere/Reaper ; python3 main.py")
+    os.system("rm -rf Reaper ; git clone https://github.com/krisishere/Reaper ; mkdir Reaper/.info ; touch Reaper/.info/tos_agree.py ; python3 " + parent + "Reaper/main.py")
     os.chdir(parent + "/Reaper")
     sys.exit()
 else:
