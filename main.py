@@ -1,4 +1,4 @@
-#Reaper 1.1 stable
+#Reaper 1.2 stable
 #Made specifucally for Linux
 #WILL NOT WORK ON WINDOWS
 #tested on linux mint, debian, ubuntu, Manjaro
@@ -20,6 +20,7 @@ except:
     else:
         sys.exit()
 
+os.chdir("tools")
 
 def clearanim():
     print("""
@@ -343,14 +344,14 @@ def mainmenu():
         elif tool == "2":
             ho = input("Host: ")
             po = input("Port: ")
-            os.system("python2 tools/tcping.py " + ho + " " + po + " 99999" )
+            os.system("python2 tcping.py " + ho + " " + po + " 99999" )
         elif tool == "3":
             ho = input("Host: ")
-            os.system("python2 tools/pscan.py -m 1 -M 99999 " + ho)
+            os.system("python2 pscan.py -m 1 -M 99999 " + ho)
         elif tool == "4":
-            os.system("python2 tools/PyDDOS.py")
+            os.system("python2 PyDDOS.py")
         elif tool == "5":
-            os.system("python2 tools/ddosv2.py")
+            os.system("python2 ddosv2.py")
         elif tool == "6":
             try:
                 os.system("putty")
@@ -384,17 +385,18 @@ def mainmenu():
             si = input("Site: ")
             po = input("Port: ")
             th = input("Threads: ")
-            os.system("python2 tools/pyhoic.py -t " + si + " -p " + po + " -r " + th)
+            os.system("python2 pyhoic.py -t " + si + " -p " + po + " -r " + th)
         elif tool == "11":
             ops = input("\033[38;2;143;106;231m1\033[38;2;0;255;152m-\033[92;40mOpen \033[38;2;143;106;231m2\033[38;2;0;255;152m-\033[92;40mSave\033[92;40m: ")
             if ops == "1":
-                os.system("cat tools/notes.txt")
+                os.system("cat notes.txt")
             else:
                 nam = input("Name: ")
                 ip = input("IP: ")
-                os.system("echo 'IP of " + nam + " is " + ip + "' >> tools/notes.txt")
+                os.system("echo 'IP of " + nam + " is " + ip + "' >> notes.txt")
         elif tool == "12":
-            os.system("python3 tools/gather.py")
+            os.system("python3 gather.py")
+            #os.system("cp -r proxies.txt tools")
         elif tool == "13":
             os.system("python2 .checker.py")
         elif tool == "14":
