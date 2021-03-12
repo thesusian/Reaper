@@ -1,4 +1,4 @@
-#Reaper 0.9 stable
+#Reaper 1.0 stable
 #Made specifucally for linux
 #WILL NOT WORK ON WINDOWS
 #tested on linux mint, debian, ubuntu
@@ -352,7 +352,16 @@ def mainmenu():
         elif tool == "5":
             os.system("python2 tools/ddosv2.py")
         elif tool == "6":
-            os.system("putty")
+            try:
+                os.system("putty")
+            except:
+                xd = input("Would you like to install PuTTY?: ")
+                if xd == "y":
+                    os.system("sudo apt install putty")
+                elif xd == "Y":
+                    os.system("sudo apt install putty")
+                else:
+                    print("ok")
         elif tool == "7":
             ip = input("Enter IP Address: ")
             port = int(input("Port: "))
@@ -360,7 +369,13 @@ def mainmenu():
             thread = int(input("Threads: "))
             bane.tcp_flood(ip, p=port, min_size=10, max_size=20, duration=time, interval=0.001, threads=thread, timeout=5, logs=True)
         elif tool == "8":
-            os.system("htop")
+            xd = input("Would you like to install htop?: ")
+            if xd == "y":
+                os.system("sudo apt install htop")
+            elif xd == "Y":
+                os.system("sudo apt install htop")
+            else:
+                print("ok")
         elif tool == "9":
             ho = input("Host: ")
             po = input("Port: ")
