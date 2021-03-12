@@ -35,6 +35,7 @@ To disable autologin type "stop_autologin"
 
 # How do you update?
 
-Reaper 1.1 has added a feature making it easier to update!
+In Reaper 1.1 we added a feature making it easier to update!
 All you have to do now is type "update" and click yes
 The rest just takes care of itself.
+Enjoy!
