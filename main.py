@@ -426,7 +426,7 @@ Error 404 not found (currently none)""")
             parent = os.path.dirname(path)
             os.system("cp -r .update.py " + parent)
             os.system("cd " + parent)
-            os.system("python3 .update.py")
+            os.system("sudo python3 .update.py")
             sys.exit()
         elif tool == "screenfetch":
             os.system("screenfetch")
