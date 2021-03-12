@@ -1,4 +1,4 @@
-# Reaper 1.0 stable
+# Reaper 1.1 stable
 A python conversion of the Reaper multi-tool
 
 # Help
@@ -32,3 +32,9 @@ How to use?
 
 To autologin type "autologin" in the terminal once you log in
 To disable autologin type "stop_autologin"
+
+# How do you update?
+
+Reaper 1.1 has added a feature making it easier to update!
+All you have to do now is type "update" and click yes
+The rest just takes care of itself.
