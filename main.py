@@ -370,13 +370,16 @@ def mainmenu():
             thread = int(input("Threads: "))
             bane.tcp_flood(ip, p=port, min_size=10, max_size=20, duration=time, interval=0.001, threads=thread, timeout=5, logs=True)
         elif tool == "8":
-            xd = input("Would you like to install htop?: ")
-            if xd == "y":
-                os.system("sudo apt install htop")
-            elif xd == "Y":
-                os.system("sudo apt install htop")
-            else:
-                print("ok")
+            try:
+                os.system("htop")
+            expect:
+                xd = input("Would you like to install htop?: ")
+                if xd == "y":
+                    os.system("sudo apt install htop")
+                elif xd == "Y":
+                    os.system("sudo apt install htop")
+                else:
+                    print("ok")
         elif tool == "9":
             ho = input("Host: ")
             po = input("Port: ")
