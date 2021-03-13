@@ -1,4 +1,4 @@
-#Reaper 1.2 stable
+#Reaper 1.3 stable
 #Made specifucally for Linux
 #WILL NOT WORK ON WINDOWS
 #tested on linux mint, debian, ubuntu, Manjaro
@@ -427,6 +427,7 @@ Error 404 not found (currently none)""")
             os.chdir('..')
             path = os.getcwd()
             parent = os.path.abspath(os.path.join(path, os.pardir))
+            os.system("cp -r tools/.info " + parent)
             os.system("cp -r tools/.update.py " + parent)
             os.system("python3 " + parent + "/.update.py")
             sys.exit()
