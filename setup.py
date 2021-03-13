@@ -8,10 +8,8 @@ if os.getuid():
 
 if platform == "linux" or platform == "linux2":
     xd = input("Would you like to proceed with the instalation?: (Y/N) ")
-    if xd == "y":
+    if xd == "y" or xd == "Y":
         os.system("apt install lolcat putty ; pip3 install bane pysocks ; mkdir .info")
-    elif xd == "Y":
-        os.system("apt install lolcat ; pip3 install bane ; mkdir .info")
     else:
         print("Setup stopped.")
 elif platform == "darwin":
