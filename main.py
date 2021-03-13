@@ -607,8 +607,10 @@ def logintop():
                 loginanim()
             else:
                 print("Wrong password")
+                time.sleep(2)
         else:
             print("Wrong username")
+            time.sleep(2)
 
 
 #ignore
