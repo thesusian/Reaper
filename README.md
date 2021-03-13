@@ -1,4 +1,4 @@
-# Reaper 1.2 stable
+# Reaper 1.3 stable
 A python conversion of the Reaper multi-tool
 
 # Keep in mind that Reaper is for educational purposed only!
