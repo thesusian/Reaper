@@ -413,8 +413,7 @@ def mainmenu():
             print("Autologin enabled")
             os.system("touch .info/autolog.py")
         elif tool == "exit":
-            print("Exiting Reaper...")
-            sys.exit(2)
+            exit("Reaper closed")
         elif tool == "stop_autologin":
             print("Autologin disabled")
             os.system("rm -rf .info/autolog.py")
