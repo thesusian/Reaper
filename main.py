@@ -1,7 +1,7 @@
 #Reaper 1.3 stable
 #Made specifucally for Linux
 #WILL NOT WORK ON WINDOWS
-#tested on linux mint, debian, ubuntu, Manjaro
+#tested on linux mint, debian, ubuntu, manjaro
 import os
 import sys
 import time
@@ -328,7 +328,7 @@ def mainmenu():
    :::::::::::::;' /  / :##""")
     loo = "true"
     while loo == "true":
-        tool = input("\033[96;40m[\033[92;40m" + name + "\033[96;40m@\033[0;33mReaper\033[96;40m] \033[92;40m~# \033[97;40m")
+        tool = input("\033[96;40m[\033[92;40m" + name + "\033[96;40m@\033[0;33mReaper_1.3\033[96;40m] \033[92;40m~# \033[97;40m")
         if tool == "about":
             os.system("cat info/about.txt")
         elif tool == "help":
@@ -448,7 +448,7 @@ def loginanim():
        ,;::::::;     ;'       /  / OOOOOOO
      ;:::::::::. ,,,;.       /  / DOOOOOO
    .';:::::::::::::::::;,   /  /     DOOOO
-  ,::::::;::::::;;;;::::;, /  /        DOOO  \033[96;40mThanks for using \033[0;31mReaper\033[92;40m
+  ,::::::;::::::;;;;::::;, /  /        DOOO  \033[96;40mThanks for using \033[0;31mReaper 1.3\033[92;40m
  ;::::::'::::::;;;::::: ,#/  /          DOOO
  ::::::::;::::::;;::: ;::#  /            DOOO
  :::::::::;:::::::: ;::::# /              DOO
@@ -470,7 +470,7 @@ def loginanim():
        ,;::::::;     ;'       /  / OOOOOOO
      ;:::::::::. ,,,;.       /  / DOOOOOO
    .';:::::::::::::::::;,   /  /     DOOOO
-  ,::::::;::::::;;;;::::;, /  /        DOOO  \033[96;40mThanks for using \033[0;31mReaper\033[92;40m
+  ,::::::;::::::;;;;::::;, /  /        DOOO  \033[96;40mThanks for using \033[0;31mReaper 1.3\033[92;40m
  ;::::::'::::::;;;::::: ,#/  /          DOOO
  ::::::::;::::::;;::: ;::#  /            DOOO
  :::::::::;:::::::: ;::::# /              DOO
@@ -492,7 +492,7 @@ def loginanim():
        ,;::::::;     ;'       /  / OOOOOOO
      ;:::::::::. ,,,;.       /  / DOOOOOO
    .';:::::::::::::::::;,   /  /     DOOOO
-  ,::::::;::::::;;;;::::;, /  /        DOOO  \033[96;40mThanks for using \033[0;31mReaper\033[92;40m
+  ,::::::;::::::;;;;::::;, /  /        DOOO  \033[96;40mThanks for using \033[0;31mReaper 1.3\033[92;40m
  ;::::::'::::::;;;::::: ,#/  /          DOOO
  ::::::::;::::::;;::: ;::#  /            DOOO
  :::::::::;:::::::: ;::::# /              DOO
@@ -514,7 +514,7 @@ def loginanim():
        ,;::::::;     ;'       /  / OOOOOOO
      ;:::::::::. ,,,;.       /  / DOOOOOO
    .';:::::::::::::::::;,   /  /     DOOOO
-  ,::::::;::::::;;;;::::;, /  /        DOOO  \033[96;40mThanks for using \033[0;31mReaper\033[92;40m
+  ,::::::;::::::;;;;::::;, /  /        DOOO  \033[96;40mThanks for using \033[0;31mReaper 1.3\033[92;40m
  ;::::::'::::::;;;::::: ,#/  /          DOOO
  ::::::::;::::::;;::: ;::#  /            DOOO
  :::::::::;:::::::: ;::::# /              DOO
@@ -536,7 +536,7 @@ def loginanim():
        ,;::::::;     ;'       /  / OOOOOOO
      ;:::::::::. ,,,;.       /  / DOOOOOO
    .';:::::::::::::::::;,   /  /     DOOOO
-  ,::::::;::::::;;;;::::;, /  /        DOOO  \033[96;40mThanks for using \033[0;31mReaper\033[92;40m
+  ,::::::;::::::;;;;::::;, /  /        DOOO  \033[96;40mThanks for using \033[0;31mReaper 1.3\033[92;40m
  ;::::::'::::::;;;::::: ,#/  /          DOOO
  ::::::::;::::::;;::: ;::#  /            DOOO
  :::::::::;:::::::: ;::::# /              DOO
@@ -558,7 +558,7 @@ def loginanim():
        ,;::::::;     ;'       /  / OOOOOOO
      ;:::::::::. ,,,;.       /  / DOOOOOO
    .';:::::::::::::::::;,   /  /     DOOOO
-  ,::::::;::::::;;;;::::;, /  /        DOOO  \033[96;40mThanks for using \033[0;31mReaper\033[92;40m
+  ,::::::;::::::;;;;::::;, /  /        DOOO  \033[96;40mThanks for using \033[0;31mReaper 1.3\033[92;40m
  ;::::::'::::::;;;::::: ,#/  /          DOOO
  ::::::::;::::::;;::: ;::#  /            DOOO
  :::::::::;:::::::: ;::::# /              DOO
@@ -590,7 +590,7 @@ def logintop():
        ,;::::::;     ;'       /  / OOOOOOO
      ;:::::::::. ,,,;.       /  / DOOOOOO
    .';:::::::::::::::::;,   /  /     DOOOO
-  ,::::::;::::::;;;;::::;, /  /        DOOO  \033[96;40mPlease Login\033[92;40m
+  ,::::::;::::::;;;;::::;, /  /        DOOO  \033[96;40mPlease Login to \033[0;31mReaper 1.3\033[92;40m\033[92;40m
  ;::::::'::::::;;;::::: ,#/  /          DOOO
  ::::::::;::::::;;::: ;::#  /            DOOO
  :::::::::;:::::::: ;::::# /              DOO
@@ -599,9 +599,9 @@ def logintop():
   :::::::::::;::::::::;:::#                OO
   :::::::::::::::::;':;::#                O
    :::::::::::::;' /  / :##""")
-        usrname = input("\033[96;40m[\033[92;40mUsername\033[96;40m@\033[0;33mReaper\033[96;40m] \033[92;40m~# \033[97;40m")
+        usrname = input("\033[96;40m[\033[92;40mUsername\033[96;40m@\033[0;33mReaper_1.3\033[96;40m] \033[92;40m~# \033[97;40m")
         if usrname == CorrectUsername:
-            passwd = input("\033[96;40m[\033[92;40mPassword\033[96;40m@\033[0;33mReaper\033[96;40m] \033[92;40m~# \033[97;40m")
+            passwd = input("\033[96;40m[\033[92;40mPassword\033[96;40m@\033[0;33mReaper_1.3\033[96;40m] \033[92;40m~# \033[97;40m")
             if passwd == CorrectPassword:
                 print("Correct password")
                 time.sleep(3)
@@ -636,7 +636,7 @@ def loginops():
   :::::::::::::::::;':;::#                O
    :::::::::::::;' /  / :##
 
-\033[96;40m[\033[92;40mWelcome\033[96;40m@\033[0;33mReaper\033[96;40m] \033[92;40m~# \033[97;40m""")
+\033[96;40m[\033[92;40mWelcome\033[96;40m@\033[0;33mReaper_1.3\033[96;40m] \033[92;40m~# \033[97;40m""")
     if l_r == "create":
         registertop()
     else:
